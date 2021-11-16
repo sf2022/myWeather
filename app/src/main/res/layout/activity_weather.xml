@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/curCity"
+        android:layout_width="match_parent"
+        android:layout_height="84dp" />
+
+    <TextView
+        android:id="@+id/weatherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="106dp" />
+
+    <TextView
+        android:id="@+id/updateTime"
+        android:layout_width="match_parent"
+        android:layout_height="126dp" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="123dp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="102dp" />
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刷新" />
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关注" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+</LinearLayout>
